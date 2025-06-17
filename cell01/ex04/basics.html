@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">  
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basics</title> 
+    <style>
+    body {
+         background-color: #f472b6;
+            margin: 0;
+            padding: 2rem;
+            min-height: 100vh;
+            font-family: Arial, sans-serif;
+    }
+
+    .main-heading  {
+        color: white;
+        text-align :center;
+        font-size: 4rem;
+        margin-bottom: 3rem;
+        font-weight: bold;
+    }
+    
+    .store-container{
+        display: flex;
+        justify-content: center;
+        gap: 3rem;
+        margin-bottom: 2rem;
+        flex-wrap: wrap;
+    }
+
+    .store-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .store-image {
+        width: 400px;
+        height: 300px;
+        border-radius: 8px;
+        margin-bottom: 1rem;
+        object-fit: cover;
+        background-color: white;
+    }    
+    .store-link {
+        color: white;
+        text-decoration: underline;
+        transition: color 0.3s ease;
+    }
+    .store-link:hover {
+        color: #fce7f3;
+    }
+    .separator {
+        border: none;
+        border-top: 2px solid white ;
+        width: 100%;
+        margin: 2rem 0;
+    }
+    .copyright {
+        text-align: right;
+        font-family:'Courier New',monospace;
+        font-style: italic;
+        color: white;
+    }
+    
+    @media (max-width: 768px) {
+        .main-heading {
+            font-size: 2.5rem;
+        }
+        .store-image {
+            width: 300px;
+            height: 225px;
+        }
+    }
+    </style>
+</head>
+<body>        
+    <h1 class="main-heading">Bags shop★</h1>
+
+    <div class="store-container">
+        <div class="store-item">
+            <img src="https://assets.central.co.th//adobe/dynamicmedia/deliver/dm-aid--d4876cf0-9994-4294-b261-dfb8ddee2b11/smiggle-barbielightuptrolleybackpackpink-cds98956319-1.jpg?preferwebp=true&quality=85&width=550"
+                 alt="Light up Barbie pink"
+                 class="store-image">
+            <a href="https://www.central.co.th/th/smiggle-toddler-trolley-backpack-light-up-barbie-pink-cds98956319"                                
+                class="store-link"
+                target="_blank">Light up Barbie pink</a> 
+        </div>
+        <div class="store-item">
+            <img src="https://assets.central.co.th/smiggle_code?$PNG$"
+                 alt="Minecraft Trolley"
+                 class="store-image">
+            <a href="https://www.central.co.th/th/smiggle-minecraft-trolley-backpack-with-light-up-wheels-449541bk-black-cds92275515"                                
+                class="store-link"
+                target="_blank">Minecraft Trolley</a> 
+        </div>
+    </div>
+
+    <hr class="separator">
+    <div class="copyright">
+        <p>&copy;  jnakchea <script>document.write(new Date().getFullYear())</script></p>
+    </div>
+</body>
+</html>
