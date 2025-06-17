@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Responsive Two-Cell Table</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      width: 100%;
+      font-family: "Times New Roman", serif;
+    }
+
+    table {
+      width: 100vw;
+      height: 100vh;
+      border-collapse: collapse;
+      table-layout: fixed;
+    }
+
+    td {
+      text-align: center;
+      vertical-align: middle;
+      font-size: 1.5em;
+      border: 1px solid #555;
+      word-wrap: break-word;
+    }
+
+    .cell1 {
+      background-color: #c3cd7b;  /* เขียวอ่อน */
+      color: #2d3a00;
+    }
+
+    .cell2 {
+      background-color: #f9c2b4;  /* ชมพูอ่อน */
+      color: #5c0000;
+    }
+  </style>
+</head>
+<body>
+
+  <table>
+    <tr>
+      <td class="cell1">Green Cell</td>
+      <td class="cell2">Pink Cell</td>
+    </tr>
+  </table>
+
+</body>
+</html>
