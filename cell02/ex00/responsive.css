@@ -1,14 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
-    padding: 0px;
-    margin: 0px;
+  margin: 0;
+  padding: 20px;
+  font-family: sans-serif;
 }
+
 table {
-    width: 100vw;
-    height: 100vh;
-    border-collapse: collapse;
+  width: 100%;
+  border-collapse: collapse;
+  margin: 30px auto;
 }
+
 td {
-    width: 50vw;
-    height: 100vh;
-    border: solid black;
+  padding: 20px;
+  text-align: center;
+  font-size: 1.2em;
+  border: 1px solid black;
+}
+
+.box1 {
+  background-color: red;
+}
+
+.box2 {
+  background-color: blue;
+}
+
+@media (max-width: 600px) {
+  table, tr, td {
+    display: block;
+    width: 100%;
+  }
+
+  td {
+    text-align: left;
+    font-size: 1em;
+    padding: 10px;
+  }
 }
