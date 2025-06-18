@@ -1,0 +1,38 @@
+body, html {
+  margin: 0;
+  font-family: sans-serif;
+  scroll-behavior: smooth;
+}
+
+.parallax {
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.img1 {
+  background-image: url("https://images.theconversation.com/files/625049/original/file-20241010-15-95v3ha.jpg?ixlib=rb-4.1.0&rect=12%2C96%2C2671%2C1335&q=45&auto=format&w=668&h=324&fit=crop");
+}
+
+.img2 {
+  background-image: url("https://www.purina.co.uk/sites/default/files/2020-12/Understanding%20Your%20Cat%27s%20Body%20LanguageTEASER.jpg");
+}
+
+.text {
+  color: rgb(255, 255, 255);
+  font-size: 2em;
+  background: rgba(156, 156, 156, 0.5);
+  padding: 20px;
+}
+
+.content {
+  background: black;
+  color: white;
+  padding: 100px;
+  text-align: center;
+}
