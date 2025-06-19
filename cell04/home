@@ -1,29 +1,28 @@
-<html>
-    <head>
-        <title>menu</title>
-        <style>
-            body {
-                background-image: url('https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcm0zMDktYWV3LTAxM18xXzEuanBn.jpg');
-                background-size: cover;
-                background-position: center;
-            }
-            h1 {
-                color: white;
-            }
-            p {
-                color: white;
-            }
-        </style>
-
-    </head>
-    <body>
-        <h1 style="text-align: center">Our resume</h1>
-        <p style="text-align: center">Click below to view each resume</p>
-        <div style="text-align: center;">
-            <a href="resume1.html" class="btn btn-outline-primary m-2">Resume Ice</a>
-            <a href="resume2.html" class="btn btn-outline-success m-2">Resume Foto</a>
-        </div>
-        
-    </body>
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rush</title>
+    <style>
+        .buttonToPage {
+            display: flex;
+            width: 100%;
+            height: 100%;
+            justify-content: center;
+            align-content: center;
+        }
+        button {
+            margin: 30px;
+            padding: 20px;
+            font-size: 32px;
+        }
+    </style>
+</head>
+<body>
+    <div class="buttonToPage">
+        <a href="bm1.html"><button>friend1</button></a>
+        <a href="kwan2.html"><button>friend2</button></a>
+    </div>
+</body>
 </html>
